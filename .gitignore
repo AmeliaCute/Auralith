@@ -1,0 +1,15 @@
+*
+!mods/
+!mods/**/*
+!resourcepacks/
+!resourcepacks/**/*
+!config/
+!config/**/*
+
+!pack.toml
+!index.toml
+
+!.github/
+!.github/**/*
+!.gitignore
+!.packwizignore
