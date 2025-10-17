@@ -1,0 +1,13 @@
+name = "Clean F3"
+filename = "CleanF3-mc1.21.1-0.4.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "293fd624beab1709770e3854d2fe95e8579c8a6c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5889642
+project-id = 882993

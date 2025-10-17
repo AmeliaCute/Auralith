@@ -1,0 +1,13 @@
+name = "Create: Stones"
+filename = "create-stones-2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "80e327f4f791b511e5197409dccafac0a76cdf39"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7060817
+project-id = 1357893

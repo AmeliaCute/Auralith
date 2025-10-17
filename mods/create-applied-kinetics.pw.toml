@@ -1,0 +1,13 @@
+name = "Create: Applied Kinetics"
+filename = "createappliedkinetics-1.5.2-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "639c1384eb67b22cf115e002f8466c339471930d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6779170
+project-id = 867328

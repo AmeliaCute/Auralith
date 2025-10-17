@@ -1,0 +1,13 @@
+name = "Create: Renewable Diamonds"
+filename = "create-renewable-diamonds-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "86d0c0364049638e94140d2549fc07b89319ee29"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7060781
+project-id = 1357890
