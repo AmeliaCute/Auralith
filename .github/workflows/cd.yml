@@ -32,6 +32,8 @@ jobs:
         run: |
           cp -r config/ Modrinth/
           cp -r config/ CurseForge/
+          cp -r kubejs/ Modrinth/
+          cp -r kubejs/ CurseForge/
 
       - name: Export Modrinth
         run: |
@@ -44,11 +46,6 @@ jobs:
           cd CurseForge
           ~/go/bin/packwiz cf export
           cd ..
-
-      #- name: Moving exports to build
-      #  run: |
-      #    mv ./Modrinth/Auralith-+([0-9]).+([0-9]).+([0-9]).mrpack ./build 
-      #    mv ./Curseforge/Auralith-+([0-9]).+([0-9]).+([0-9]).zip ./build 
 
       - name: Set up date-based tag
         run: |
