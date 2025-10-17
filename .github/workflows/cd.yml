@@ -22,7 +22,7 @@ jobs:
 
       - name: Download packwiz
         run: |
-          wget -0 packwiz https://github.com/packwiz/packwiz/actions/runs/17407879187/artifacts/3907483180
+          wget -O packwiz https://github.com/packwiz/packwiz/actions/runs/17407879187/artifacts/3907483180
           chmod +x packwiz
 
       - name: Copy configs
