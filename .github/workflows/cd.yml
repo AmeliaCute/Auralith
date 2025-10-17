@@ -20,10 +20,17 @@ jobs:
           shopt -s extglob
           mkdir -p build 
 
-      - name: Download packwiz
+      - name: Set up go 
+        uses: actions/setup-go@v4
+        with: 
+          go-version: '1.21'
+
+      - name: Build packwiz 
         run: |
-          wget -O packwiz https://github.com/packwiz/packwiz/actions/runs/17407879187/artifacts/3907483180
-          chmod +x packwiz
+          git clone https://github.com/packwiz/packwiz.giit packwiz-src 
+          cd packwiz-src 
+          go build -o .../packwiz
+          cd ..
 
       - name: Copy configs
         run: |
