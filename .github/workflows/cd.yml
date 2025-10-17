@@ -27,7 +27,7 @@ jobs:
 
       - name: Build packwiz 
         run: |
-          git clone https://github.com/packwiz/packwiz.giit packwiz-src 
+          git clone https://github.com/packwiz/packwiz.git packwiz-src 
           cd packwiz-src 
           go build -o .../packwiz
           cd ..
