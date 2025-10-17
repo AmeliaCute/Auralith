@@ -1,10 +1,9 @@
 *
-!mods/
-!mods/**/*
-!resourcepacks/
-!resourcepacks/**/*
-!config/
-!config/**/*
+!Modrinth/
+!Modrinth/**/*
+
+!CurseForge/
+!CurseForge/**/*
 
 !pack.toml
 !index.toml

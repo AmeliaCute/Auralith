@@ -1,0 +1,13 @@
+name = "RFTools Builder"
+filename = "rftoolsbuilder-1.21-7.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/e0IclJLr/versions/coTWxOwJ/rftoolsbuilder-1.21-7.0.3.jar"
+hash-format = "sha512"
+hash = "f560b879295e54117061a20a591869ba240f97f0dbda9314b1b5ee4785573b81b4205ed13ae2bdf7215fe2680e3991c6596db569dd363bf2eee838e377ff4531"
+
+[update]
+[update.modrinth]
+mod-id = "e0IclJLr"
+version = "coTWxOwJ"

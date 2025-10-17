@@ -1,0 +1,13 @@
+name = "Mooshroom Tweaks"
+filename = "mooshroomtweaks-1.21.1-3.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/B10lMHiA/versions/KoovVmla/mooshroomtweaks-1.21.1-3.6.jar"
+hash-format = "sha512"
+hash = "9be1fd88b7fced0017845f35d264060c210ebc99e8c6abd5952da5f900756a2cdd2cefe521a4ec178d5d43a276b30ff5cee9460c1bb6a972aaadccf4e8fbdbf2"
+
+[update]
+[update.modrinth]
+mod-id = "B10lMHiA"
+version = "KoovVmla"

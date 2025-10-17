@@ -1,0 +1,13 @@
+name = "McJtyLib"
+filename = "mcjtylib-1.21-9.0.14.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1Zu0uTEE/versions/AWLkAjp8/mcjtylib-1.21-9.0.14.jar"
+hash-format = "sha512"
+hash = "cc99982c13fc57b19c1828f191c1107032f93e7ecf7fe4ac1e9a070becb6d9b2f22d8e3823e276f843cac1ac3092335a6b67321e3d1125276c49e358043995cc"
+
+[update]
+[update.modrinth]
+mod-id = "1Zu0uTEE"
+version = "AWLkAjp8"

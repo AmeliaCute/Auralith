@@ -1,0 +1,13 @@
+name = "Auralith"
+author = "AmeliaCute"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "baf4ebd5fd927a394a7c159a89ebb9f93a46bec1fc2bfbdb69791d2744e81e7b"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.211"

@@ -1,0 +1,13 @@
+name = "Botany Pots - Mystical Agriculture Compat"
+filename = "botanypotsmystical-neoforge-1.21.1-21.1.10.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SaWFztxY/versions/OEWjpwxG/botanypotsmystical-neoforge-1.21.1-21.1.10.jar"
+hash-format = "sha512"
+hash = "a1ecddd27053b0927a4c85cdcd91338a87680eb6dbc5ee822f81fff4d6718985b24193dd1884337ee8dbc0e15b4f6e1f1658a0a5059d917c93543699b4e0a17d"
+
+[update]
+[update.modrinth]
+mod-id = "SaWFztxY"
+version = "OEWjpwxG"

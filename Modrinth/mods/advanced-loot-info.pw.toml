@@ -1,0 +1,13 @@
+name = "Advanced Loot Info"
+filename = "AdvancedLootInfo-neoforge-1.21.1-1.3.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PEPVViac/versions/dS3upeCG/AdvancedLootInfo-neoforge-1.21.1-1.3.7.jar"
+hash-format = "sha512"
+hash = "ecc5da0520f0bc81e68c32a94d0961ab29ecf1300946bd9b2c03ab4b57bfe8d2de5d9d9daad2c369695f19aa7f36dd95567a78166b3f23fff25f243492003363"
+
+[update]
+[update.modrinth]
+mod-id = "PEPVViac"
+version = "dS3upeCG"

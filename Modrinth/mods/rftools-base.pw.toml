@@ -1,0 +1,13 @@
+name = "RFTools Base"
+filename = "rftoolsbase-1.21-6.0.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hIO8IsD8/versions/fLhf2leC/rftoolsbase-1.21-6.0.8.jar"
+hash-format = "sha512"
+hash = "770a4a58f901e67e41b4a983acc47e2c4ab7171fdca711e4054c0990e4cb76655b129a4f1079968caec417536b957e028e2089aec12a35bdd8c6354b89d999c7"
+
+[update]
+[update.modrinth]
+mod-id = "hIO8IsD8"
+version = "fLhf2leC"

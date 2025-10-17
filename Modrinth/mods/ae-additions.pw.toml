@@ -1,0 +1,13 @@
+name = "AE Additions"
+filename = "AEAdditions-1.21.1-6.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BaiPFaoT/versions/HN26pv4c/AEAdditions-1.21.1-6.0.1.jar"
+hash-format = "sha512"
+hash = "3f4ce4417d12659383335754ba796b38dbe920391f6d5df31f4f593bde90d2cfc8a994aa0e5ee48f73f38bcf0f7951f76934c539e3bf46e53ccf733f059edf13"
+
+[update]
+[update.modrinth]
+mod-id = "BaiPFaoT"
+version = "HN26pv4c"

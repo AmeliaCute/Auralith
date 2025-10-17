@@ -1,0 +1,66 @@
+name: Export and Release Modpack (main)
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses:  actions/checkout@v4
+
+      - name: Setup env
+        runs: |
+          shopt -s extglob
+          mkdir -p build 
+
+      - name: Download packwiz
+        run: |
+          wget -0 packwiz https://github.com/packwiz/packwiz/actions/runs/17407879187/artifacts/3907483180
+          chmod +x packwiz
+
+      - name: Copy configs
+        runs: |
+          cp -r config/ Modrinth/
+          cp -r config/ CurseForge/
+
+      - name: Export Modrinth
+        runs: |
+          cd Modrinth
+          ../packwiz mr export
+          cd ..
+
+      - name: Export CurseForge
+        runs: |
+          cd CurseForge
+          ../packwiz cf export
+          cd ..
+
+      #- name: Moving exports to build
+      #  runs: |
+      #    mv ./Modrinth/Auralith-+([0-9]).+([0-9]).+([0-9]).mrpack ./build 
+      #    mv ./Curseforge/Auralith-+([0-9]).+([0-9]).+([0-9]).zip ./build 
+
+      - name: Set up date-based tag
+        run: |
+          DATE_TAG="v$(date +'%Y%m%d.%H%M')"
+          echo "TAG_NAME=$DATE_TAG" >> $GITHUB_ENV
+          echo "{tag}=$DATE_TAG"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: Auralith ${{ env.TAG_NAME }}
+          body: "Automated release of ${{ github.ref_name }}."
+          generate_release_notes: true
+          files: |
+            ./Modrinth/*.mrpack
+            ./CurseForge/*.zip
+          token: ${{ secrets.RELEASE_CD_TOKEN }}
+
