@@ -1,4 +1,4 @@
-name: Export and Release Modpack (main)
+name: "Export and Release Modpack (main)"
 
 on:
   push:
@@ -13,10 +13,10 @@ jobs:
       contents: write
 
     steps:
-      - uses:  actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Setup env
-        runs: |
+        run: |
           shopt -s extglob
           mkdir -p build 
 
@@ -26,24 +26,24 @@ jobs:
           chmod +x packwiz
 
       - name: Copy configs
-        runs: |
+        run: |
           cp -r config/ Modrinth/
           cp -r config/ CurseForge/
 
       - name: Export Modrinth
-        runs: |
+        run: |
           cd Modrinth
           ../packwiz mr export
           cd ..
 
       - name: Export CurseForge
-        runs: |
+        run: |
           cd CurseForge
           ../packwiz cf export
           cd ..
 
       #- name: Moving exports to build
-      #  runs: |
+      #  run: |
       #    mv ./Modrinth/Auralith-+([0-9]).+([0-9]).+([0-9]).mrpack ./build 
       #    mv ./Curseforge/Auralith-+([0-9]).+([0-9]).+([0-9]).zip ./build 
 
