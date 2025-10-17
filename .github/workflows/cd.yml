@@ -25,12 +25,8 @@ jobs:
         with: 
           go-version: '1.21'
 
-      - name: Build packwiz 
-        run: |
-          git clone https://github.com/packwiz/packwiz.git packwiz-src 
-          cd packwiz-src 
-          go build -o .../packwiz
-          cd ..
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
 
       - name: Copy configs
         run: |
@@ -40,13 +36,13 @@ jobs:
       - name: Export Modrinth
         run: |
           cd Modrinth
-          ../packwiz mr export
+          ~/go/bin/packwiz mr export
           cd ..
 
       - name: Export CurseForge
         run: |
           cd CurseForge
-          ../packwiz cf export
+          ~/go/bin/packwiz cf export
           cd ..
 
       #- name: Moving exports to build
