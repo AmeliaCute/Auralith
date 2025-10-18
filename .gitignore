@@ -1,12 +1,15 @@
 *
-!Modrinth/
-!Modrinth/**/*
+!.modrinth/
+!.modrinth/**/*
 
-!CurseForge/
-!CurseForge/**/*
+!.curseforge/
+!.curseforge/**/*
 
-!pack.toml
-!index.toml
+!.resources/
+!.resources/**/*
+
+*.zip
+*.mrpack
 
 !.github/
 !.github/**/*

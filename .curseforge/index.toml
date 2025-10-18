@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "76a175f859f5d051ffee34c3834925c637b762cc938c06d0655e378984e758f5"
+hash = "88773a3eb40bdea95e454e38e9f8b8154d119997fbdd31c7c4bf8c24baaf4de4"
 metafile = true
 
 [[files]]
@@ -112,17 +112,12 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "f86eb8dae5bf0e78cd759a47109b04f0cf20608def2471356a8d9985fbef0436"
+hash = "2d6ca9904a49ad802fe149dd089738999bd7eb6105d64bcd84b87aedb072e0c4"
 metafile = true
 
 [[files]]
 file = "mods/continuity.pw.toml"
 hash = "9920b3cadb064073516f8d678e09c0d13a146bc3058725d036323852e5e18f15"
-metafile = true
-
-[[files]]
-file = "mods/crafttweaker.pw.toml"
-hash = "335409591f36ee18e8435cf154aff6978fcb7222a0c47a3880065733ba79bc4a"
 metafile = true
 
 [[files]]
@@ -147,7 +142,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-ore-excavation.pw.toml"
-hash = "fc8d8e077cc8ee61ab1d1ee76f0b3eb4b62136d68a6cdd0f77cb5291e4af7517"
+hash = "d0a211ef1402714e4394134dd0b097a773a5ba116824129bb05480b8af846b98"
 metafile = true
 
 [[files]]
@@ -346,8 +341,13 @@ hash = "7fbe3225c134e823a07f3aecedace39fe866f327671ecca928f134399b94008d"
 metafile = true
 
 [[files]]
+file = "mods/kubejs.pw.toml"
+hash = "b2e4e9c22fa6dbdedf14fefc64ae45ab6354ff00246e8c950d720ea9198eb75e"
+metafile = true
+
+[[files]]
 file = "mods/lambdynamiclights.pw.toml"
-hash = "de7d2773cf4e36eb0f32a0ede09288a25db9219bf2c16cfb0f2195b133511f59"
+hash = "8bfdc9f78bbceb4586517fed0b0e4cbf4b806aa67819cdb2370627c7b9c001f2"
 metafile = true
 
 [[files]]
@@ -358,6 +358,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "908cbf89e774b114d1dc3aef4806c9d2d782cfd314be001718bb690af9b074a8"
+metafile = true
+
+[[files]]
+file = "mods/magnesium-extras.pw.toml"
+hash = "af6b190e42b601eb0e2ca6fd58209f0242ab8c403996f1814956a6699dcd4f86"
 metafile = true
 
 [[files]]
@@ -397,7 +402,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-industrialization.pw.toml"
-hash = "ace0dceecec5c345d230d17374348277c226b50a067078ac85d60a22c24515cc"
+hash = "9ed506f88afd2c464196d192f149466535ef395b6b60978ba5701b0c3a92a856"
 metafile = true
 
 [[files]]
@@ -506,6 +511,11 @@ hash = "cca4f11de46d853fe057a4b1ddf52bf2e9d14a1f0fb95bc47824c05396a3595d"
 metafile = true
 
 [[files]]
+file = "mods/rhino.pw.toml"
+hash = "75ff68dd0bfb30f2ff97f170ffbb74d5b6aaa791416c4a0559d09ac8778561ba"
+metafile = true
+
+[[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
 hash = "54d2a807ba6fd3d30ee5db0aefa1540bced906875c411a2e6a5088c118e735ac"
 metafile = true
@@ -533,6 +543,11 @@ metafile = true
 [[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "b16ee8ff10576cf6ef43fd6a2828463faf96de88e6409f9ee6b3dd31645d282d"
+metafile = true
+
+[[files]]
+file = "mods/sodium-options-api.pw.toml"
+hash = "05953528b550760efecc9834796d90177e09bd0d231ce814b43578e386468a73"
 metafile = true
 
 [[files]]

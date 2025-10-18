@@ -30,20 +30,20 @@ jobs:
 
       - name: Copy configs
         run: |
-          cp -r config/ Modrinth/
-          cp -r config/ CurseForge/
-          cp -r kubejs/ Modrinth/
-          cp -r kubejs/ CurseForge/
+          cp -r config/ .modrinth/
+          cp -r config/ .curseforge/
+          cp -r kubejs/ .modrinth/
+          cp -r kubejs/ .curseforge/
 
       - name: Export Modrinth
         run: |
-          cd Modrinth
+          cd .modrinth
           ~/go/bin/packwiz mr export
           cd ..
 
       - name: Export CurseForge
         run: |
-          cd CurseForge
+          cd .curseforge
           ~/go/bin/packwiz cf export
           cd ..
 
@@ -60,7 +60,7 @@ jobs:
           body: "Automated release of ${{ github.ref_name }}."
           generate_release_notes: true
           files: |
-            ./Modrinth/*.mrpack
-            ./CurseForge/*.zip
+            ./.modrinth/*.mrpack
+            ./.curseforge/*.zip
           token: ${{ secrets.RELEASE_CD_TOKEN }}
 
