@@ -1,6 +1,5 @@
 ServerEvents.recipes(event => 
 {
-
   event.remove({ output: 'modern_industrialization:iron_hammer' });
   event.shaped(
     Item.of('modern_industrialization:iron_hammer', 1),

@@ -671,6 +671,11 @@ hash = "fedd9a7de67d6392f2a1629050334d1f7c7d79a2d1b2bc12f1041a6826f6d8f4"
 metafile = true
 
 [[files]]
+file = "photon-shader.pw.toml"
+hash = "09c8e6752fe02ae348923b6038bc1c3d4b06f452886a1d42c90d72adcc2e40ef"
+metafile = true
+
+[[files]]
 file = "resourcepacks/vanilla-mashup-pbr.pw.toml"
 hash = "c2acbd7bf2fb68de4217c78589a4300c400d4b63310069a75954d48defca5799"
 metafile = true
