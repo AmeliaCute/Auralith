@@ -7,6 +7,8 @@ ServerEvents.recipes(event =>
     { output: 'create:sail_frame' },
     { output: 'create:white_sail' },
     
+    { output: 'create:steam_engine' },
+
     { output: 'createaddition:electric_motor' }
   ]);
 

@@ -35,6 +35,11 @@ jobs:
           cp -r kubejs/ .modrinth/
           cp -r kubejs/ .curseforge/
 
+      - name: Copy auralith resourcepack
+        run: |
+          cp -r ".resources/Auralith Resources Compat" .modrinth/resourcepacks
+          cp -r ".resources/Auralith Resources Compat" .curseforge/resourcepacks
+
       - name: Export Modrinth
         run: |
           cd .modrinth
