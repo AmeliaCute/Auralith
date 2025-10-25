@@ -69,3 +69,16 @@ jobs:
             ./.curseforge/*.zip
           token: ${{ secrets.RELEASE_CD_TOKEN }}
 
+      - name: Upload to Modrinth
+        uses: cloudnode-pro/modrinth-publish@v2
+        with:
+          token: ${{ secrets.MODRINTH_TOKEN }}
+          project: IYJJ1bih
+          name: auralith-${{ env.TAG_NAME }}
+          version: ${{ env.TAG_NAME }}
+          loaders: |-
+            neoforge
+          game-versions: |-
+            1.21.1
+          files: ./.modrinth/*.mrpack
+

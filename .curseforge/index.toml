@@ -16,11 +16,6 @@ hash = "d2685c37d0ddb1fa67a7126a4884d961791309c39f344f562e738f273381853e"
 metafile = true
 
 [[files]]
-file = "mods/aether.pw.toml"
-hash = "59c9a1f969edd0ba1da9ba5ad6975951513225d0304a692c3d4c862e2360940c"
-metafile = true
-
-[[files]]
 file = "mods/ai-improvements.pw.toml"
 hash = "db026135a8a23b2b660ebbfa8a85d06b26249305b2612bc2fab930e252100890"
 metafile = true
