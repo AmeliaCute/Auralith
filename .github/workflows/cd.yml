@@ -65,7 +65,7 @@ jobs:
           body: "Automated release of ${{ github.ref_name }}."
           generate_release_notes: true
           files: |
-            ./.modrinth/*.mrpack
+            ./.modrinth/Auralith-1.0.0.mrpack
             ./.curseforge/*.zip
           token: ${{ secrets.RELEASE_CD_TOKEN }}
 
@@ -80,6 +80,6 @@ jobs:
             neoforge
           game-versions: |-
             1.21.1
-          files: ./.modrinth/*.mrpack
+          files: ./.modrinth/Auralith-1.0.0.mrpack
           channel: alpha
 
