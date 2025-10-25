@@ -81,4 +81,5 @@ jobs:
           game-versions: |-
             1.21.1
           files: ./.modrinth/*.mrpack
+          channel: alpha
 
