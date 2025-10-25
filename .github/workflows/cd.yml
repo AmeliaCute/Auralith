@@ -83,3 +83,11 @@ jobs:
           files: ./.modrinth/Auralith-1.0.0.mrpack
           channel: alpha
 
+      - name: Upload to CurseForge
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          token: ${{ secrets.CURSEFORGE_TOKEN }}
+          file_path: ./.curseforge/Auralith-1.0.0.zip
+          game_endpoint: "minecraft"
+          game_version: "Minecraft 1.21:1.21.1,Java 21,Neoforge"
+          project_id: 1372216
