@@ -56,6 +56,11 @@ hash = "9a9d6bf3715b20cbf83b967e4dd8b77972d1256e52a7b1c2bbfa4122f5acc931"
 metafile = true
 
 [[files]]
+file = "mods/auralith-compat-and-additions.pw.toml"
+hash = "05608eaf7064fa67aa56534e37aaef6949e8fc004ded61b924e9fc9280f517f0"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "5ea9fb9ea7bf0fed99866d9dc20ffc907c6f6cf203dddeca9dda01ee475cfc37"
 metafile = true
