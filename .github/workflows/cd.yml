@@ -72,7 +72,7 @@ jobs:
           token: ${{ secrets.RELEASE_CD_TOKEN }}
 
       - name: Upload to Services
-        uses: Kir_antipov/mc-publish@v3.3
+        uses: Kir-antipov/mc-publish@v3.3
         with:
           modrinth-id: IYJJ1bih
           modrinth-featured: true
