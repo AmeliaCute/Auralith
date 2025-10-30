@@ -71,7 +71,7 @@ jobs:
             ./.curseforge/*.zip
           token: ${{ secrets.RELEASE_CD_TOKEN }}
 
-      - name: Upload to Services
+      - name: Publish 
         uses: Kir-antipov/mc-publish@v3.3
         with:
           modrinth-id: IYJJ1bih
@@ -81,6 +81,8 @@ jobs:
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           modrinth-files: ./.modrinth/*.mrpack
           curseforge-files: ./.curseforge/*.zip
+          version: auralith-${{ env.TAG_NAME }}
+          version-type: alpha
           loaders: neoforge
           game-versions: 1.21.1
           retry-attempts: 2
