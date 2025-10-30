@@ -556,11 +556,6 @@ hash = "8d5628a4af0f355519b17bb0c6e5783c30aa78f6aa04b77b3892cd5d7c10af03"
 metafile = true
 
 [[files]]
-file = "mods/stellaris.pw.toml"
-hash = "97bc20533648215f880908b5c9c1dfbb5a8b20c32eb0138624775596b65c4009"
-metafile = true
-
-[[files]]
 file = "mods/storage-drawers.pw.toml"
 hash = "9f0cd1d096b591cb49077fbe4f95a1e24a93354cd9b4d77e74c49af2d29381cf"
 metafile = true
