@@ -56,6 +56,10 @@ hash = "05608eaf7064fa67aa56534e37aaef6949e8fc004ded61b924e9fc9280f517f0"
 metafile = true
 
 [[files]]
+file = "mods/auralithoregens-1.0.0-REL.jar"
+hash = "7efcacda8e4f5a946f8615a63ff439f21669922dcf411c828c3d26370e0658ca"
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "32220d2f0275dd71f089742921c86c8964186a8d9610434f53f67f2e459c2ef2"
 metafile = true
@@ -91,6 +95,11 @@ hash = "0f65903b12bae41e80128a499439d818fec9597604f6c8d5ea04d443c0eda93c"
 metafile = true
 
 [[files]]
+file = "mods/brandons-core.pw.toml"
+hash = "7904c140247e0d8a87231cf4d36718fc018e0f851dbec2517b673acdc25547df"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "88773a3eb40bdea95e454e38e9f8b8154d119997fbdd31c7c4bf8c24baaf4de4"
 metafile = true
@@ -108,6 +117,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
+metafile = true
+
+[[files]]
+file = "mods/codechicken-lib-1-8.pw.toml"
+hash = "ebf8ec24b42b09b224ef64cf208850805004c2334994e1b322f66fc22b16391c"
 metafile = true
 
 [[files]]
@@ -188,6 +202,11 @@ metafile = true
 [[files]]
 file = "mods/dnt-ancient-city-overhaul.pw.toml"
 hash = "58096a477ce5489d4c283d910b0e8b285c6fea7ed8dd9010136f6af9464cc6e9"
+metafile = true
+
+[[files]]
+file = "mods/draconic-evolution.pw.toml"
+hash = "56ffeb0321cb3a8b27d92ce2c504b3e77f67ea9303ce1235873a8176ccf65525"
 metafile = true
 
 [[files]]
@@ -358,6 +377,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "908cbf89e774b114d1dc3aef4806c9d2d782cfd314be001718bb690af9b074a8"
+metafile = true
+
+[[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "f8d04adfe1023acda951e4abeb1fd6f71a91d54389c399c00c21bf475108dce4"
 metafile = true
 
 [[files]]
@@ -571,6 +595,11 @@ hash = "130f04ff53fcd4cdb82fd357ae36a8fd7ef16f8f3de38d348dec6e7ba24d866b"
 metafile = true
 
 [[files]]
+file = "mods/tectonic.pw.toml"
+hash = "a1f20e3fbcd440ff3ba4ec8271ffe203f61e1de1fc95125b123bfe216992c7f3"
+metafile = true
+
+[[files]]
 file = "mods/terrablender-neoforge.pw.toml"
 hash = "d77e4dc337b6090358c1ef01b0f99a8357e5279443e0e23e511de1be865c01c9"
 metafile = true
@@ -583,6 +612,11 @@ metafile = true
 [[files]]
 file = "mods/tesseract.pw.toml"
 hash = "372a2f416555ee11a14d214d2b51de0c5d0fee411f7149b2a695e9897935eaa8"
+metafile = true
+
+[[files]]
+file = "mods/this-rocks-forge.pw.toml"
+hash = "00408be9d0435296545e241169ad9af634627e7a6ad7b32b701aa7a1cc9ba78c"
 metafile = true
 
 [[files]]

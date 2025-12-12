@@ -1,0 +1,13 @@
+name = "Auralith Chunk Ore"
+filename = "auralithoregens-1.0.0-REL.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VbZdG5bW/versions/nNZkRUjg/auralithoregens-1.0.0-REL.jar"
+hash-format = "sha512"
+hash = "6bb417745275f16eb0eaf6ff4895c0598400b10cdeac8ac04b7503b788ff581293b9e33317a54c687a393ccf2fc5a69b19cf2f6484b687deb384e140575ae885"
+
+[update]
+[update.modrinth]
+mod-id = "VbZdG5bW"
+version = "nNZkRUjg"

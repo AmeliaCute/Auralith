@@ -1,0 +1,73 @@
+name: "Export and Release Modpack (dev)"
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup env
+        run: |
+          shopt -s extglob
+          mkdir -p build 
+
+      - name: Set up go 
+        uses: actions/setup-go@v4
+        with: 
+          go-version: '1.24.9'
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Copy configs
+        run: |
+          cp -r config/ .modrinth/
+          cp -r config/ .curseforge/
+          cp -r kubejs/ .modrinth/
+          cp -r kubejs/ .curseforge/
+
+      - name: Copy auralith resourcepack
+        run: |
+          cp -r ".resources/Auralith Resources Compat" .modrinth/resourcepacks
+          cp -r ".resources/Auralith Resources Compat" .curseforge/resourcepacks
+
+      - name: Export Modrinth
+        run: |
+          cd .modrinth
+          ~/go/bin/packwiz refresh
+          ~/go/bin/packwiz mr export
+          cd ..
+
+      - name: Export CurseForge
+        run: |
+          cd .curseforge
+          ~/go/bin/packwiz refresh
+          ~/go/bin/packwiz cf export
+          cd ..
+
+      - name: Set up date-based tag
+        run: |
+          DATE_TAG="v$(date +'%Y%m%d.%H%M')"
+          echo "TAG_NAME=$DATE_TAG" >> $GITHUB_ENV
+          echo "{tag}=$DATE_TAG"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: auralith-dev-${{ env.TAG_NAME }}
+          body: "Automated release of ${{ github.ref_name }}."
+          prerelease: true
+          generate_release_notes: true
+          files: |
+            ./.modrinth/Auralith-1.0.0.mrpack
+            ./.curseforge/*.zip
+          token: ${{ secrets.RELEASE_CD_TOKEN }}
