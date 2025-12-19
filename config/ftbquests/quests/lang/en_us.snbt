@@ -1,11 +1,14 @@
 {
 	chapter.0C9B34EB1F1E0512.title: "Auralith"
+	chapter.517FDB4CE57052AE.title: "1"
 	quest.25E5DB4EFC532D64.title: "Shiny useless blue things"
+	quest.2F259CCAD2507EBC.quest_desc: ["You might have already understood: Circle Quests are entirely optional. They help you understand a little more about what we are doing and what your possibilities are in this modpack."]
 	quest.3023E2108E719544.title: "Seamless transfer"
 	quest.31986DCB11553110.title: "Welcome to Auralith <3"
 	quest.34DC2C2C3FBA3F76.title: "a LITTLE upgrade"
 	quest.3670CBB147119189.title: "A forge and a hammer are the base of invincibility, right?"
 	quest.4ACD69C4432A3A52.title: "Cables are sometimes usefull"
+	quest.4D7B5DCA3BC99EBE.quest_desc: ["You might have noticed that you can’t break logs with your hands. Try using &n&lflint&r&r or a &l&nsplitter&r&r instead"]
 	quest.508B13574068AA87.title: "Too lazy for crafting"
 	quest.5BE3A257DD292C6A.title: "Small cute lil reactor :3"
 	quest.71910BB377570F8F.title: "From one seed, everything was made"
@@ -15,6 +18,9 @@
 	reward.04E43F3C58F3D467.title: "Applied Energistics 2"
 	reward.1CB54DBE39E4BA88.title: "Modern Industrialization"
 	reward.3F43F140185A25D3.title: "Applied Energistics 2"
+	task.1818E4586ABF9D16.title: "Any #minecraft:logs"
+	task.20639BEDF2874C1A.title: "Welcome to Auralith"
 	task.244994E5B06BA88A.title: "Generating force"
 	task.5DCB9C697EEB8E81.title: "Applied Energistic Autocrafting"
+	task.75427B9F403B25CE.title: "Optional"
 }
