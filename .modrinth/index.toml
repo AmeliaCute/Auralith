@@ -206,6 +206,11 @@ hash = "ae84c67cf52d6936753720935032f162e4340ba2a291231b846908a00a4f9afd"
 metafile = true
 
 [[files]]
+file = "mods/cutemendingreworked.pw.toml"
+hash = "2505b675b3cfce707afcad499d566088f7386a317b4032ddc2a7035ccf43d0a5"
+metafile = true
+
+[[files]]
 file = "mods/distanthorizons.pw.toml"
 hash = "3f8fb0012b658c3ed2dfcde1385aa6255ee46cd18b77975d68665aaf0ee2a94d"
 metafile = true

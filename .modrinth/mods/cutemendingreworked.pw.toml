@@ -1,0 +1,13 @@
+name = "MendingReworked"
+filename = "MendingReworked-neoforge-1.21.1-1.3.1-REL.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2xEpw5CM/versions/reMa0bnf/MendingReworked-neoforge-1.21.1-1.3.1-REL.jar"
+hash-format = "sha512"
+hash = "e3ece3412a2d4902d8a632ed079f02fe39a394bb1fe87354e7ecf022dc12ee005c8d585295bdec5d5eebadaf9388ded84664db433c6cf3b61b6261205c96b3cf"
+
+[update]
+[update.modrinth]
+mod-id = "2xEpw5CM"
+version = "reMa0bnf"

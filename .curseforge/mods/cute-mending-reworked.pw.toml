@@ -1,0 +1,13 @@
+name = "MendingReworked"
+filename = "MendingReworked-neoforge-1.21.1-1.3.1-REL.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c74102d027d26736bf85f061dd7f2bff5491dc75"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7340312
+project-id = 1244140
