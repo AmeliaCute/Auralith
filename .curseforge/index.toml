@@ -366,7 +366,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "b2e4e9c22fa6dbdedf14fefc64ae45ab6354ff00246e8c950d720ea9198eb75e"
+hash = "395ed890024bdb90e7c0fed1edf8b3905a367942ded954fca92384c76a7e5601"
 metafile = true
 
 [[files]]
@@ -387,6 +387,11 @@ metafile = true
 [[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "67f0fa1b48ccb27a0da53c223367407d335431f17721e2bb54f5533645b8f376"
+metafile = true
+
+[[files]]
+file = "mods/lootjs.pw.toml"
+hash = "bc08dd76449dd698c1bb6d3087ee530624bf29f1efdc9262ae33fe1faf775912"
 metafile = true
 
 [[files]]
@@ -431,7 +436,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-industrialization.pw.toml"
-hash = "9ed506f88afd2c464196d192f149466535ef395b6b60978ba5701b0c3a92a856"
+hash = "0b6283bf88b8f798529d0044372f3d668edf9b58a3becb9bcd7b095ea4c11839"
 metafile = true
 
 [[files]]
