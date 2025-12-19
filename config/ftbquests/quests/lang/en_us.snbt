@@ -1,15 +1,24 @@
 {
 	chapter.0C9B34EB1F1E0512.title: "Auralith"
-	chapter.517FDB4CE57052AE.title: "1"
+	chapter.340EA15D8809C498.title: "Steam Above and Beyond"
+	chapter.517FDB4CE57052AE.title: "The beginning"
+	quest.21A980A8F47AE7AA.quest_subtitle: "The Botany Bot allows you to farm a sapling infinitely. Try using it to power the steam machine!"
+	quest.21A980A8F47AE7AA.title: "Infinite wood"
 	quest.25E5DB4EFC532D64.title: "Shiny useless blue things"
 	quest.2F259CCAD2507EBC.quest_desc: ["You might have already understood: Circle Quests are entirely optional. They help you understand a little more about what we are doing and what your possibilities are in this modpack."]
 	quest.3023E2108E719544.title: "Seamless transfer"
 	quest.31986DCB11553110.title: "Welcome to Auralith <3"
+	quest.32F6763F7872EE1C.quest_desc: ["{image:auralith:textures/quest/aura1/pump_setup.png width:200 height:113 align:center}"]
+	quest.32F6763F7872EE1C.quest_subtitle: "This is the easiest way to get (almost) infinite steam. Here’s how to set up a simple semi-automatic steam generator."
+	quest.335D648BA1FCAD92.title: "Steam Age"
 	quest.34DC2C2C3FBA3F76.title: "a LITTLE upgrade"
 	quest.3670CBB147119189.title: "A forge and a hammer are the base of invincibility, right?"
 	quest.4ACD69C4432A3A52.title: "Cables are sometimes usefull"
 	quest.4D7B5DCA3BC99EBE.quest_desc: ["You might have noticed that you can’t break logs with your hands. Try using &n&lflint&r&r or a &l&nsplitter&r&r instead"]
 	quest.508B13574068AA87.title: "Too lazy for crafting"
+	quest.53E34AEBB56706D0.quest_desc: ["{image:auralith:textures/quest/aura1/pipes.png width:100 height:67 align:center}"]
+	quest.53E34AEBB56706D0.quest_subtitle: "You may also need to use pipes. If you’re a perfectionist like me, you might want to place all cables correctly and use different pipe colors on the same block position to avoid wasting unnecessary space!"
+	quest.53E34AEBB56706D0.title: "Pipes"
 	quest.5BE3A257DD292C6A.title: "Small cute lil reactor :3"
 	quest.71910BB377570F8F.title: "From one seed, everything was made"
 	quest.774EEFCF63E3CBB9.title: "Efficiency is not a choice, it's protocol"
@@ -18,9 +27,13 @@
 	reward.04E43F3C58F3D467.title: "Applied Energistics 2"
 	reward.1CB54DBE39E4BA88.title: "Modern Industrialization"
 	reward.3F43F140185A25D3.title: "Applied Energistics 2"
+	reward.472D19592F2927BE.title: "Steam Age"
+	task.12FAF22079D8A6F2.title: "Any #botanypots:botany_pots"
 	task.1818E4586ABF9D16.title: "Any #minecraft:logs"
 	task.20639BEDF2874C1A.title: "Welcome to Auralith"
+	task.20CE046007791912.title: "Steam age"
 	task.244994E5B06BA88A.title: "Generating force"
+	task.5D0CB45A8E1ACFCD.title: "Any #modern_industrialization:fluid_pipes"
 	task.5DCB9C697EEB8E81.title: "Applied Energistic Autocrafting"
 	task.75427B9F403B25CE.title: "Optional"
 }
