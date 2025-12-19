@@ -25,7 +25,7 @@ ServerEvents.recipes(event =>
     event.smelting(
       r.nugget,
       r.crushed
-    ).xp(r.xp);
+    ).xp(r.xp).cookingTime(15);
 
     event.shaped(
       Item.of(r.pure, 1),
@@ -41,6 +41,6 @@ ServerEvents.recipes(event =>
     event.smelting(
       r.result,
       r.pure
-    ).xp(r.xp).cookingTime(20);
+    ).xp(r.xp).cookingTime(40);
   });
 });
