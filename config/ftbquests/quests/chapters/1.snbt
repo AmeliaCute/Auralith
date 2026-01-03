@@ -185,11 +185,22 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3F53FB43C2C28866"]
+			dependencies: ["2EB357A18359B772"]
 			id: "2542308AA75F1249"
 			tasks: [{
 				id: "062B6B294F761BB2"
 				item: { count: 1, id: "modern_industrialization:iron_hammer" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F53FB43C2C28866"]
+			id: "2EB357A18359B772"
+			tasks: [{
+				id: "6BB8B6B1CA225889"
+				item: { count: 1, id: "modern_industrialization:forge_hammer" }
 				type: "item"
 			}]
 			x: 12.0d
@@ -197,17 +208,6 @@
 		}
 		{
 			dependencies: ["2542308AA75F1249"]
-			id: "2EB357A18359B772"
-			tasks: [{
-				id: "6BB8B6B1CA225889"
-				item: { count: 1, id: "modern_industrialization:forge_hammer" }
-				type: "item"
-			}]
-			x: 13.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2EB357A18359B772"]
 			id: "6EFD145D9EA046EE"
 			tasks: [{
 				count: 16L
