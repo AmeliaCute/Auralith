@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "2"
 	group: ""
+	hide_quest_until_deps_complete: true
 	icon: {
 		id: "modern_industrialization:steam_bucket"
 	}
@@ -46,6 +47,8 @@
 		}
 		{
 			dependencies: ["32F6763F7872EE1C"]
+			dependency_requirement: "one_started"
+			hide_dependency_lines: true
 			id: "5C51850461A1140C"
 			shape: "circle"
 			tasks: [{
@@ -58,6 +61,7 @@
 		}
 		{
 			dependencies: ["32F6763F7872EE1C"]
+			hide_dependency_lines: true
 			id: "53E34AEBB56706D0"
 			shape: "diamond"
 			tasks: [{
@@ -70,6 +74,7 @@
 		}
 		{
 			dependencies: ["32F6763F7872EE1C"]
+			hide_dependency_lines: true
 			id: "21A980A8F47AE7AA"
 			shape: "circle"
 			tasks: [{

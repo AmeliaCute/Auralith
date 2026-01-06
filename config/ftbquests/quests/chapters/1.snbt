@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "1"
 	group: ""
+	hide_quest_until_deps_complete: true
 	icon: {
 		id: "rocks:oak_stick"
 	}
@@ -101,6 +102,7 @@
 		}
 		{
 			dependencies: ["2B8997EC889F7BC3"]
+			hide_dependency_lines: true
 			id: "354153863FB9BA52"
 			optional: true
 			rewards: [{
@@ -143,6 +145,8 @@
 		}
 		{
 			dependencies: ["2B8997EC889F7BC3"]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
 			id: "2F259CCAD2507EBC"
 			optional: true
 			rewards: [{
@@ -259,6 +263,21 @@
 			}]
 			x: 9.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["7D3678685D521F88"]
+			hide_dependency_lines: true
+			id: "5CB2A52AED8D510D"
+			invisible: true
+			shape: "circle"
+			tasks: [{
+				count: 16L
+				id: "669B76B138F3D6F4"
+				item: { count: 1, id: "modern_industrialization:item_pipe" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -1.5d
 		}
 	]
 }

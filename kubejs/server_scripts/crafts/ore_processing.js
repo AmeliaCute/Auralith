@@ -23,7 +23,7 @@ ServerEvents.recipes(event =>
     event.remove({ type: "minecraft:blasting", output: r.result });
 
     event.smelting(
-      r.nugget,
+      '3x ' + r.nugget,
       r.crushed
     ).xp(r.xp).cookingTime(15);
 

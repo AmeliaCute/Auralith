@@ -28,7 +28,7 @@ LootJS.lootTables(event =>
     tables.createPool(pool => 
     {
       pool.addEntry(item);
-      pool.apply(entry => entry.setCount([1, 4]));
+      pool.apply(entry => entry.setCount([3, 6]));
     });
   });
 });
