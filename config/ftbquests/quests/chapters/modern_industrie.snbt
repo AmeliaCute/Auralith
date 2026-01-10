@@ -63,7 +63,10 @@
 				}
 				{
 					icon: {
-						id: "powah:uraninite"
+						components: {
+							"ftbquests:missing_item": "powah:uraninite"
+						}
+						id: "ftbquests:missing_item"
 					}
 					id: "244994E5B06BA88A"
 					stage: "ENCAP"
@@ -733,7 +736,10 @@
 			dependencies: ["31986DCB11553110"]
 			dependency_requirement: "one_completed"
 			icon: {
-				id: "powah:uraninite"
+				components: {
+					"ftbquests:missing_item": "powah:uraninite"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "79F5D609435B9565"
 			tasks: [
@@ -744,7 +750,7 @@
 				}
 				{
 					id: "4BAC24AB0F71A5AC"
-					item: { count: 1, id: "bigreactors:raw_yellorium" }
+					item: { components: { "ftbquests:missing_item": "bigreactors:raw_yellorium" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -758,12 +764,12 @@
 				{
 					count: 64L
 					id: "142656C6CB5D9D5E"
-					item: { count: 1, id: "powah:dielectric_paste" }
+					item: { components: { "ftbquests:missing_item": "powah:dielectric_paste" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "79CBC22450F66004"
-					item: { count: 1, id: "powah:book" }
+					item: { components: { "ftbquests:missing_item": "powah:book" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -777,7 +783,7 @@
 				{
 					count: 16L
 					id: "64ADB2BC0F53A848"
-					item: { count: 1, id: "bigreactors:graphite_ingot" }
+					item: { components: { "ftbquests:missing_item": "bigreactors:graphite_ingot" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
@@ -807,8 +813,11 @@
 					count: 32
 					id: "0BC77E6308EE9115"
 					item: {
+						components: {
+							"ftbquests:missing_item": "bigreactors:yellorium_ingot"
+						}
 						count: 1
-						id: "bigreactors:yellorium_ingot"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -817,35 +826,35 @@
 				{
 					count: 92L
 					id: "7E14228975E5639D"
-					item: { count: 1, id: "bigreactors:basic_reactorcasing" }
+					item: { components: { "ftbquests:missing_item": "bigreactors:basic_reactorcasing" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "1B0CB8BB7540D8C2"
-					item: { count: 1, id: "bigreactors:basic_reactorcontroller" }
+					item: { components: { "ftbquests:missing_item": "bigreactors:basic_reactorcontroller" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "689B1AD01D2EA1AC"
-					item: { count: 1, id: "bigreactors:basic_reactorpowertapfe_active" }
+					item: { components: { "ftbquests:missing_item": "bigreactors:basic_reactorpowertapfe_active" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 5L
 					id: "75833C45990C0798"
-					item: { count: 1, id: "bigreactors:basic_reactorcontrolrod" }
+					item: { components: { "ftbquests:missing_item": "bigreactors:basic_reactorcontrolrod" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 15L
 					id: "1706FB9F6EB6D095"
-					item: { count: 1, id: "bigreactors:basic_reactorfuelrod" }
+					item: { components: { "ftbquests:missing_item": "bigreactors:basic_reactorfuelrod" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "72687A916F646FE9"
-					item: { count: 1, id: "bigreactors:basic_reactorsolidaccessport" }
+					item: { components: { "ftbquests:missing_item": "bigreactors:basic_reactorsolidaccessport" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -873,7 +882,7 @@
 			tasks: [{
 				count: 64L
 				id: "3955C33DAE5F6E90"
-				item: { count: 1, id: "bigreactors:cyanite_ingot" }
+				item: { components: { "ftbquests:missing_item": "bigreactors:cyanite_ingot" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -7.5d
@@ -894,7 +903,7 @@
 			}]
 			tasks: [{
 				id: "3BFEEE8C9565F244"
-				item: { count: 1, id: "powah:solar_panel_starter" }
+				item: { components: { "ftbquests:missing_item": "powah:solar_panel_starter" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -7.5d

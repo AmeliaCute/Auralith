@@ -249,6 +249,11 @@
 				stage: "aura2"
 				type: "gamestage"
 			}]
+			tasks: [{
+				id: "7F8872C45BF51E59"
+				item: { count: 1, id: "minecraft:bucket" }
+				type: "item"
+			}]
 			x: 18.0d
 			y: 0.0d
 		}

@@ -7,6 +7,5 @@ ServerEvents.recipes(event =>
     { output: 'enderio:vibrant_photovoltaic_module' },
 
     { output: 'enderio:stirling_generator' },
-  ]
-  );
+  ]);
 });

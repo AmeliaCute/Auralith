@@ -19,7 +19,7 @@
 					id: "modern_industrialization:singularity"
 				}
 				id: "20CE046007791912"
-				stage: "aura1"
+				stage: "aura2"
 				type: "gamestage"
 			}]
 			x: -1.5d
@@ -83,6 +83,111 @@
 				type: "item"
 			}]
 			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["32F6763F7872EE1C"]
+			id: "4A35C82386106988"
+			tasks: [{
+				count: 2L
+				id: "4A7A413DF6AB0D68"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C0A160AFAD337F7"]
+			id: "32CEEE80C8A83F7C"
+			tasks: [{
+				count: 64L
+				id: "559F8817032C62ED"
+				item: { count: 1, id: "modern_industrialization:steel_ingot" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A35C82386106988"]
+			id: "1631AF7146AA4902"
+			tasks: [
+				{
+					id: "72FDE309AD7F990E"
+					item: { count: 1, id: "modern_industrialization:coke_oven" }
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "044A0A94F5B73873"
+					item: { count: 1, id: "minecraft:bricks" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1631AF7146AA4902"]
+			hide_dependency_lines: true
+			id: "2345A18F79856AB9"
+			shape: "circle"
+			tasks: [
+				{
+					id: "3164DFCC1BE76959"
+					item: { count: 1, id: "modern_industrialization:bronze_fluid_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "4D0CE31ECAE310BC"
+					item: { count: 1, id: "modern_industrialization:bronze_fluid_output_hatch" }
+					type: "item"
+				}
+				{
+					id: "5BBD6F790838AB2F"
+					item: { count: 1, id: "modern_industrialization:bronze_item_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "435493CAD887D760"
+					item: { count: 1, id: "modern_industrialization:bronze_item_output_hatch" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1631AF7146AA4902"]
+			id: "4C0A160AFAD337F7"
+			tasks: [
+				{
+					id: "0726C89184BCA870"
+					item: { count: 1, id: "modern_industrialization:steam_blast_furnace" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "1987C64ED175A087"
+					item: { count: 1, id: "modern_industrialization:fire_clay_bricks" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32CEEE80C8A83F7C"]
+			hide_dependency_lines: true
+			id: "180BEA21B7516D15"
+			shape: "circle"
+			tasks: [{
+				id: "31A4F229B5AE076D"
+				item: { count: 1, id: "modern_industrialization:steel_upgrade" }
+				type: "item"
+			}]
+			x: 6.0d
 			y: -1.5d
 		}
 	]

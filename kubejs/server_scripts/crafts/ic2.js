@@ -59,7 +59,7 @@ ServerEvents.recipes(event =>
     event.remove({ output: pipe })
 
     event.shaped(
-      Item.of(pipe, 16),
+      Item.of(pipe, 32),
       [
       'AAA',
       'CBC',
@@ -79,5 +79,23 @@ ServerEvents.recipes(event =>
     ]
   )
   });
+
+  event.recipes.modern_industrialization.macerator(
+  {
+    eu: 2,
+    duration: 100,
+    item_inputs:
+    [
+      { item: 'minecraft:gravel', amount: 1 }
+    ],
+    item_outputs: 
+    [
+      { item: 'minecraft:flint', amount: 1 }
+    ]
+  }).id('kubejs:macerator/gravel_to_flint');
+
+  // Kinda useless recipe, so commented out for now
+  // event.remove({type: 'modern_industrialization:coke_oven', output: 'modern_industrialization:coke_dust'});
+
 
 });
