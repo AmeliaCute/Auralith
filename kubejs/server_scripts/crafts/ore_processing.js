@@ -1,7 +1,10 @@
 const crushedToNugget = [
   { crushed: 'kubejs:crushed_iron', nugget: 'minecraft:iron_nugget', pure: 'kubejs:raw_pure_iron', result: 'minecraft:iron_ingot', xp: 0.7 },
   { crushed: 'kubejs:crushed_copper', nugget: 'create:copper_nugget', pure: 'kubejs:raw_pure_copper', result: 'minecraft:copper_ingot', xp: 0.4 },
-  { crushed: 'kubejs:crushed_tin', nugget: 'modern_industrialization:tin_nugget', pure: 'kubejs:raw_pure_tin', result: 'modern_industrialization:tin_ingot', xp: 0.9 }
+  { crushed: 'kubejs:crushed_tin', nugget: 'modern_industrialization:tin_nugget', pure: 'kubejs:raw_pure_tin', result: 'modern_industrialization:tin_ingot', xp: 0.9 },
+  { crushed: 'kubejs:crushed_lead', nugget: 'modern_industrialization:lead_nugget', pure: 'kubejs:raw_pure_lead', result: 'modern_industrialization:lead_ingot', xp: 0.9 },
+  { crushed: 'kubejs:crushed_antimony', nugget: 'modern_industrialization:antimony_nugget', pure: 'kubejs:raw_pure_antimony', result: 'modern_industrialization:antimony_ingot', xp: 1.2 },
+  { crushed: 'kubejs:crushed_gold', nugget: 'minecraft:gold_nugget', pure: 'kubejs:raw_pure_gold', result: 'minecraft:gold_ingot', xp: 0.7 },
 ]
 
 ServerEvents.recipes(event => 

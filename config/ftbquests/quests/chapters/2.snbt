@@ -190,5 +190,53 @@
 			x: 6.0d
 			y: -1.5d
 		}
+		{
+			dependencies: ["7B1CD1BB9DE341B0"]
+			id: "3D1EC17B046ABBEA"
+			tasks: [{
+				id: "4FEF81891E25790D"
+				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32CEEE80C8A83F7C"]
+			id: "7B1CD1BB9DE341B0"
+			tasks: [{
+				count: 12L
+				id: "36845918AB0E7ED4"
+				item: { count: 1, id: "modern_industrialization:rubber_sheet" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D1EC17B046ABBEA"]
+			icon: {
+				id: "modern_industrialization:singularity"
+			}
+			id: "0AAA62C95F1DAF40"
+			rewards: [{
+				auto: "invisible"
+				icon: {
+					id: "modern_industrialization:analog_circuit_board"
+				}
+				id: "5FF3FA30E4C544A5"
+				ignore_reward_blocking: true
+				stage: "aura3"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 16L
+				id: "039349268E008545"
+				item: { count: 1, id: "moderndynamics:lv_cable" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
 	]
 }

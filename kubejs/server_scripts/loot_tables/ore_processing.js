@@ -15,6 +15,24 @@ const crushed = {
   [
     "minecraft:copper_ore",
     "minecraft:deepslate_copper_ore"
+  ],
+  "kubejs:crushed_lead":
+  [
+    "mekanism:lead_ore",
+    "mekanism:deepslate_lead_ore",
+    "modern_industrialization:lead_ore",
+    "modern_industrialization:deepslate_lead_ore",
+  ],
+  "kubejs:crushed_antimony":
+  [
+    "modern_industrialization:antimony_ore",
+    "modern_industrialization:deepslate_antimony_ore",
+  ],
+  "kubejs:crushed_gold":
+  [
+    "minecraft:gold_ore",
+    "minecraft:deepslate_gold_ore",
+    "minecraft:nether_gold_ore"
   ]
 }
 

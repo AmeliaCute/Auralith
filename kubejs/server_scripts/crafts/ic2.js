@@ -97,5 +97,34 @@ ServerEvents.recipes(event =>
   // Kinda useless recipe, so commented out for now
   // event.remove({type: 'modern_industrialization:coke_oven', output: 'modern_industrialization:coke_dust'});
 
+  const materials = [
+    'copper',
+    'silver',
+    'tin',
+    'cupronickel',
+    'electrum',
+    'aluminum',
+    'kanthal',
+    'annealed_copper',
+    'platinum',
+  ]
 
+  materials.forEach(mat => 
+  {
+
+    const cable = `modern_industrialization:${mat}_cable`
+    const wire = `modern_industrialization:${mat}_wire`
+
+    event.remove({
+      output: cable,
+      type: 'minecraft:crafting_shaped'
+    })
+
+    event.shaped(Item.of(cable, 8), [
+      'WWW'
+    ], {
+      W: wire
+    })
+
+  })
 });
