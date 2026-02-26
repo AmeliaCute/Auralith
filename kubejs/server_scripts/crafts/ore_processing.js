@@ -18,8 +18,6 @@ ServerEvents.recipes(event =>
     event.remove({ input: '#c:nuggets/'+nuggetName }); 
   });
 
-
-
   crushedToNugget.forEach(r => 
   {
     event.remove({ type: "minecraft:smelting", output: r.result });
