@@ -56,8 +56,13 @@ hash = "9a9d6bf3715b20cbf83b967e4dd8b77972d1256e52a7b1c2bbfa4122f5acc931"
 metafile = true
 
 [[files]]
+file = "mods/auralith-chunk-ore.pw.toml"
+hash = "7c7ce1c0e7c89195e911532f4634dffa46c26fa4484b2ace1b8cfdb52b173c3c"
+metafile = true
+
+[[files]]
 file = "mods/auralith-compat-and-additions.pw.toml"
-hash = "05608eaf7064fa67aa56534e37aaef6949e8fc004ded61b924e9fc9280f517f0"
+hash = "094bec4907fc68848eb3ccfe5e5b1a97ebb4ab5f984a574cb6514bdde8ae14eb"
 metafile = true
 
 [[files]]
@@ -96,6 +101,11 @@ hash = "247b89bfd31a4e189181596a0a0ab8a7862a5ec9cb648c0cc2457a6ff61e94d8"
 metafile = true
 
 [[files]]
+file = "mods/brandons-core.pw.toml"
+hash = "e86ba611faf7caeed1ea1191e17d6f396e9467a055facf94ab106ef87c24b305"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "88773a3eb40bdea95e454e38e9f8b8154d119997fbdd31c7c4bf8c24baaf4de4"
 metafile = true
@@ -113,6 +123,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
+metafile = true
+
+[[files]]
+file = "mods/codechicken-lib.pw.toml"
+hash = "1051d322f24322868b767199c0e6803bbc1c1c013c506f858eda02007c8fbc47"
 metafile = true
 
 [[files]]
@@ -191,8 +206,18 @@ hash = "ae84c67cf52d6936753720935032f162e4340ba2a291231b846908a00a4f9afd"
 metafile = true
 
 [[files]]
+file = "mods/cutemendingreworked.pw.toml"
+hash = "7001cf4212edfda18536dfa0233c5f8d0753302dd38908a16ff80cd471992a0f"
+metafile = true
+
+[[files]]
 file = "mods/distanthorizons.pw.toml"
 hash = "3f8fb0012b658c3ed2dfcde1385aa6255ee46cd18b77975d68665aaf0ee2a94d"
+metafile = true
+
+[[files]]
+file = "mods/draconic-evolution.pw.toml"
+hash = "296f2ba16801db85fa1bb8f85b5ba805af2034fefcf54a74f1bdbffe9e424b23"
 metafile = true
 
 [[files]]
@@ -348,7 +373,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "eba62fcfbe8678c035ef239481af4f01b21b33d198f8bf7467726e02bf37f845"
+hash = "e8c20c0c77e5df58d1386d8190ee16a957d78d62d361469db0b0c29458bf1e84"
 metafile = true
 
 [[files]]
@@ -362,8 +387,18 @@ hash = "b8ce87d9a7164676e68e69e9e6706cd6e9123b1fe740612b1ba39b43ce8675ef"
 metafile = true
 
 [[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "a14ce90c0dca8c48481e27761612a20a3197f942c7b32f39470e5f9de97e356b"
+metafile = true
+
+[[files]]
 file = "mods/lmd.pw.toml"
 hash = "ee7786026fb270b31b018efd166afff9f91de67369a50832ca33644d2bc32722"
+metafile = true
+
+[[files]]
+file = "mods/lootjs.pw.toml"
+hash = "f198f14985eef1130e638c5c1b4ce690cf768c959f2f9a06db904113f986c971"
 metafile = true
 
 [[files]]
@@ -403,7 +438,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-industrialization.pw.toml"
-hash = "6801a45865cf3d85527b2b6d3e9cc3f627b2c914a54764298620ea20b84d4569"
+hash = "a5411bb7020b74b4fa309cd74302a1d28b7b966cb2e14540b99bcbb954e4445a"
 metafile = true
 
 [[files]]
@@ -567,6 +602,11 @@ hash = "2c297fb87d09bd4203399e865d48a10aa82016c53b6767b10b43726e111a3566"
 metafile = true
 
 [[files]]
+file = "mods/tectonic.pw.toml"
+hash = "8ad02530347f7b0dfe84b8eb081e2eaa23cae536de0d289137902f7557fb3a33"
+metafile = true
+
+[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "15962183bec2468058c70e87aa32e902a08489b0f86741088cdc9aa958ba4931"
 metafile = true
@@ -579,6 +619,11 @@ metafile = true
 [[files]]
 file = "mods/tesseract.pw.toml"
 hash = "bc2a6ca74b39409209986ea78a436280fc35d4a08cd303285dbab7776d38f45d"
+metafile = true
+
+[[files]]
+file = "mods/this-rocks-forge.pw.toml"
+hash = "5535600dcfd4876fc730e9b6b3bb7ab0db8f99dd13d8e7320cd15b8267387333"
 metafile = true
 
 [[files]]
