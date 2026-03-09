@@ -41,10 +41,10 @@
     "vertical_scale": 1.125
   },
   "islands": {
-    "enabled": false,
+    "enabled": true,
     "noise_multiplier": 1.0,
     "noise_offset": 0.0,
-    "noise_scale": 0.11
+    "noise_scale": 0.067
   },
   "minor_version": 1,
   "oceans": {
