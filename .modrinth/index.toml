@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/auralith-compat-and-additions.pw.toml"
-hash = "094bec4907fc68848eb3ccfe5e5b1a97ebb4ab5f984a574cb6514bdde8ae14eb"
+hash = "e6f1689138641c4f375def00e79ef8ddfa70a9ac516faf27dd2896e9f546a392"
 metafile = true
 
 [[files]]

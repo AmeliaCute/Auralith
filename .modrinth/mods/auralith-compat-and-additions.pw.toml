@@ -1,0 +1,13 @@
+name = "Auralith Compat and Additions"
+filename = "auralithcore-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jx0u7UEL/versions/gSYvSDz8/auralithcore-1.1.2.jar"
+hash-format = "sha512"
+hash = "d0dccc0dfe1577fd00f1c7b8f7d2f4441e85b541348595fe49a2f0b4ac5855a5c7d14117c9470bdabe53fcddcd03951927db381a39a817ea377f3556bd5ad50c"
+
+[update]
+[update.modrinth]
+mod-id = "jx0u7UEL"
+version = "gSYvSDz8"
