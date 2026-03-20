@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/auralith-compat-and-additions.pw.toml"
-hash = "094bec4907fc68848eb3ccfe5e5b1a97ebb4ab5f984a574cb6514bdde8ae14eb"
+hash = "e6f1689138641c4f375def00e79ef8ddfa70a9ac516faf27dd2896e9f546a392"
 metafile = true
 
 [[files]]
@@ -103,6 +103,11 @@ metafile = true
 [[files]]
 file = "mods/brandons-core.pw.toml"
 hash = "e86ba611faf7caeed1ea1191e17d6f396e9467a055facf94ab106ef87c24b305"
+metafile = true
+
+[[files]]
+file = "mods/c2me-neoforge.pw.toml"
+hash = "f773c1a9d14caa184e006fdd8896134123a3092f923780125041029744844678"
 metafile = true
 
 [[files]]

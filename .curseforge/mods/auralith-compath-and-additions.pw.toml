@@ -1,0 +1,13 @@
+name = "Auralith Compath and Additions"
+filename = "auralithcore-1.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "935ea75e249e73226e9f62baefa6108cebf510f5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7775611
+project-id = 1372216

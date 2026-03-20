@@ -1,27 +1,5 @@
 ServerEvents.recipes(event => 
 {
-  event.remove({
-    input: '#minecraft:logs',
-    output: /_planks/
-  });
-
-  Ingredient.of('#minecraft:logs').itemIds.forEach(log => 
-  {
-
-    let plank = log
-      .replace('_log', '_planks')
-      .replace('_wood', '_planks')
-      .replace('stripped_', '')
-
-    if (Item.exists(plank)) 
-    {
-      event.shapeless(
-        Item.of(plank, 1),
-        log
-      )
-    }
-  });
-
   event.shaped(
     Item.of('minecraft:flint', 1),
     [ 
@@ -32,19 +10,6 @@ ServerEvents.recipes(event =>
       A: 'minecraft:gravel',
     }
   );
-
-  event.remove({ output: 'minecraft:stick'});
-  event.shaped(
-    Item.of('minecraft:stick', 1),
-    [ 
-      'A',
-      'A',
-    ],
-    {
-      A: '#minecraft:planks',
-    }
-  );
-
 
   event.remove({ output: 'minecraft:crafting_table'});
   event.shaped(
